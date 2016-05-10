@@ -2315,9 +2315,9 @@ STR_2307    :選擇{STRINGID}的設計
 STR_2308    :{STRINGID}的設計檔案
 STR_2309    :安裝新的軌道設計
 STR_2310    :建造自訂設計
-STR_2311    :{WINDOW_COLOUR_2}興奮度: {BLACK}{COMMA2DP32} (approx.)
-STR_2312    :{WINDOW_COLOUR_2}刺激度: {BLACK}{COMMA2DP32} (approx.)
-STR_2313    :{WINDOW_COLOUR_2}噁心度: {BLACK}{COMMA2DP32} (approx.)
+STR_2311    :{WINDOW_COLOUR_2}興奮度: {BLACK}{COMMA2DP32} (大約)
+STR_2312    :{WINDOW_COLOUR_2}刺激度: {BLACK}{COMMA2DP32} (大約)
+STR_2313    :{WINDOW_COLOUR_2}噁心度: {BLACK}{COMMA2DP32} (大約)
 STR_2314    :{WINDOW_COLOUR_2}軌道長度: {BLACK}{STRINGID}
 STR_2315    :{WINDOW_COLOUR_2}建造費用: {BLACK}約{CURRENCY}
 STR_2316    :{WINDOW_COLOUR_2}需要空間: {BLACK}{COMMA16} x {COMMA16}格
@@ -3566,7 +3566,7 @@ STR_5224    :拆除遊樂設施對話框
 STR_5225    :解僱員工對話框
 STR_5226    :刪除軌道設計對話框
 STR_5227    :覆蓋存檔對話框
-STR_5228    :{SMALLFONT}{BLACK}主界面
+STR_5228    :{SMALLFONT}{BLACK}主介面
 STR_5229    :{SMALLFONT}{BLACK}樂園
 STR_5230    :{SMALLFONT}{BLACK}工具
 STR_5231    :{SMALLFONT}{BLACK}遊樂設施及遊客
@@ -3607,7 +3607,7 @@ STR_5265    :{SMALLFONT}{BLACK}選擇哪些內容來源的物件為可視
 STR_5266    :{SMALLFONT}{BLACK}顯示
 STR_5267    :{SMALLFONT}{BLACK}語言及單位
 STR_5268    :{SMALLFONT}{BLACK}音效
-STR_5269    :{SMALLFONT}{BLACK}控制及界面
+STR_5269    :{SMALLFONT}{BLACK}控制及介面
 STR_5270    :{SMALLFONT}{BLACK}其他
 STR_5271    :{SMALLFONT}{BLACK}Twitch
 STR_5272    :{SMALLFONT}{BLACK}小型景物
@@ -3815,7 +3815,7 @@ STR_5472    :向右捲動地圖
 STR_5473    :循環日與夜
 STR_5474    :於橫額中顯示全大寫英文
 STR_5475    :{COMMA16}週
-STR_5476    :硬件
+STR_5476    :硬體
 STR_5477    :地圖顯示
 STR_5478    :控制
 STR_5479    :工具列
@@ -3892,7 +3892,7 @@ STR_5549    :年/月/日
 STR_5550    :{POP16}{POP16}第{COMMA16}年, {PUSH16}{PUSH16}{MONTH} {PUSH16}{PUSH16}{STRINGID}
 STR_5551    :年/日/月
 STR_5552    :{POP16}{POP16}第{COMMA16}年, {PUSH16}{PUSH16}{PUSH16}{STRINGID} {MONTH}
-STR_5553    :當Steam overlay開啟時暫停遊戲
+STR_5553    :當Steam內嵌介面開啟時暫停遊戲
 STR_5554    :{SMALLFONT}{BLACK}啟用山丘工具
 STR_5555    :顯示來自其他類型軌道的車輛種類
 STR_5556    :{SMALLFONT}{BLACK}踢除玩家
@@ -4035,10 +4035,10 @@ STR_5726    :{SMALLFONT}{BLACK}設定樂園目前的天氣
 STR_5727    :縮放品質
 STR_5728    :需要啟用硬體渲染
 STR_5729    :{SMALLFONT}{BLACK}需要啟用硬體渲染
-STR_5730    :最鄰近
+STR_5730    :最近鄰居
 STR_5731    :線性
 STR_5732    :各向異性
-STR_5733    :以整數比例調整最鄰近式縮放
+STR_5733    :使用最近鄰居法渲染整數縮放因子
 # tooltip for tab in options window
 STR_5734    :{SMALLFONT}{BLACK}渲染
 STR_5735    :網絡狀況
@@ -4121,6 +4121,52 @@ STR_5811    :{SMALLFONT}{BLACK}勾選後, 你可以選擇高達每列車255車�
 STR_5812    :顯示多人連線模式的視窗
 STR_5813    :{OPENQUOTES}{STRING}{ENDQUOTES}
 STR_5814    :{WINDOW_COLOUR_1}{OPENQUOTES}{STRING}{ENDQUOTES}
+#tooltips
+STR_5815    :{SMALLFONT}{BLACK}在遊戲中顯示FPS數目
+STR_5816    :{SMALLFONT}{BLACK}設置縮放遊戲的比例.{NEWLINE}於高解析度時遊玩非常有用
+STR_5817    :{SMALLFONT}{BLACK}[需先啟用硬體渲染]{NEWLINE}設定介面縮放種類
+STR_5818    :{SMALLFONT}{BLACK}[需先啟用硬體渲染]{NEWLINE}當縮放遊戲的比例設置成為整數(例如1,2,3等){NEWLINE}將會使用最近鄰居法去縮放介面
+STR_5819    :{SMALLFONT}{BLACK}[需先啟用硬體渲染]{NEWLINE}當Steam遊戲內的內嵌介面開啟時{NEWLINE}暫停遊戲
+STR_5820    :{SMALLFONT}{BLACK}當焦點在全螢幕模式{NEWLINE}失去時最小化遊戲
+STR_5821    :{SMALLFONT}{BLACK}改變建造遊樂設施, 道路, 商店, 景物中{NEWLINE}顯示的建造標記的顏色
+STR_5822    :{SMALLFONT}{BLACK}循環日與夜.{NEWLINE}一個完整的循環需時一個遊戲月
+STR_5823    :{SMALLFONT}{BLACK}Display banners in uppercase (RCT1 behaviour)
+STR_5824    :{SMALLFONT}{BLACK}Disables lightning effect{NEWLINE}during a thunderstorm
+STR_5825    :{SMALLFONT}{BLACK}Keep the mouse cursor in the window
+STR_5826    :{SMALLFONT}{BLACK}Invert right mouse dragging of the viewport
+STR_5827    :{SMALLFONT}{BLACK}Sets the color scheme used for the GUI
+STR_5828    :{SMALLFONT}{BLACK}Changes what measurement format is used for distances, speed, etc.
+STR_5829    :{SMALLFONT}{BLACK}Changes what currency format is used. Purely visual, there is no exchange rate implementation
+STR_5830    :{SMALLFONT}{BLACK}Changes what language is used
+STR_5831    :{SMALLFONT}{BLACK}Changes what format the{NEWLINE}temperature is displayed in
+STR_5832    :{SMALLFONT}{BLACK}Show height as generic units instead of measurement format set under "Distance and Speed"
+STR_5833    :{SMALLFONT}{BLACK}Changes what date format is used
+STR_5834    :{SMALLFONT}{BLACK}Select which audio device OpenRCT2 will use
+STR_5835    :{SMALLFONT}{BLACK}Mute the game if the window loses focus
+STR_5836    :{SMALLFONT}{BLACK}Select music to use on the main menu.{NEWLINE}Selecting RCT1 theme requires that you copy 'data/css17.dat' from your RCT1 game folder to 'data/css50.dat' in your RCT2 folder.
+STR_5837    :{SMALLFONT}{BLACK}Create and manage custom UI themes
+STR_5838    :{SMALLFONT}{BLACK}Show a separate button for the finance window in the toolbar
+STR_5839    :{SMALLFONT}{BLACK}Show a separate button for the research and development window in the toolbar
+STR_5840    :{SMALLFONT}{BLACK}Show a separate button for the cheats window in the toolbar
+STR_5841    :{SMALLFONT}{BLACK}Show a separate button for the recent news window in the toolbar
+STR_5842    :{SMALLFONT}{BLACK}Sort scenarios into tabs by their difficulty (RCT2 behaviour) or their source game (RCT1 behaviour)
+STR_5843    :{SMALLFONT}{BLACK}Enable scenario unlocking (RCT1 behaviour)
+STR_5844    :{SMALLFONT}{BLACK}Stay connected to a multiplayer server{NEWLINE}even if a desync or error occurs
+STR_5845    :{SMALLFONT}{BLACK}Adds a button for{NEWLINE}debugging tools to the toolbar.{NEWLINE}Enables keyboard shortcut for developer console
+STR_5846    :{SMALLFONT}{BLACK}Set often OpenRCT2 automatically saves
+STR_5847    :{SMALLFONT}{BLACK}Select park sequence used on the title screen. Title sequences from RCT1/2 require imported scenarios to function
+STR_5848    :{SMALLFONT}{BLACK}Create and manage custom title sequences
+STR_5849    :{SMALLFONT}{BLACK}Automatically place{NEWLINE}newly hired staff members
+STR_5850    :{SMALLFONT}{BLACK}Newly hired handymen mow{NEWLINE}grass by default (RCT1 behaviour)
+STR_5851    :{SMALLFONT}{BLACK}Sets the default inspection interval{NEWLINE}on newly built rides
+STR_5852    :{SMALLFONT}{BLACK}Set the name of the TwitchTV channel that will be used for Twitch integration
+STR_5853    :{SMALLFONT}{BLACK}啟用/禁用音效
+STR_5854    :{SMALLFONT}{BLACK}啟用/禁用音樂
+STR_5855    :{SMALLFONT}{BLACK}設置全螢幕, 視窗化,{NEWLINE}或無邊框式的全螢幕顯示模式
+STR_5856    :{SMALLFONT}{BLACK}Set game resolution when in fullscreen mode
+STR_5857    :{SMALLFONT}{BLACK}遊戲選項
+STR_5858    :{SMALLFONT}{BLACK}使用顯示卡取代中央處理器渲染. 改善與螢幕擷取軟件的兼容性. 可能會輕微影響效能.
+STR_5859    :{SMALLFONT}{BLACK}Enables frame tweening for visually{NEWLINE}smoother gameplay. When disabled,{NEWLINE}the game will run at 40 FPS.
 
 #############
 # Scenarios #
