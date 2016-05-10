@@ -4130,15 +4130,15 @@ STR_5819    :{SMALLFONT}{BLACK}[需先啟用硬體渲染]{NEWLINE}當Steam遊戲
 STR_5820    :{SMALLFONT}{BLACK}當焦點在全螢幕模式{NEWLINE}失去時最小化遊戲
 STR_5821    :{SMALLFONT}{BLACK}改變建造遊樂設施, 道路, 商店, 景物中{NEWLINE}顯示的建造標記的顏色
 STR_5822    :{SMALLFONT}{BLACK}循環日與夜.{NEWLINE}一個完整的循環需時一個遊戲月
-STR_5823    :{SMALLFONT}{BLACK}Display banners in uppercase (RCT1 behaviour)
-STR_5824    :{SMALLFONT}{BLACK}Disables lightning effect{NEWLINE}during a thunderstorm
+STR_5823    :{SMALLFONT}{BLACK}在橫額中顥示大階英文 (為夢幻遊樂園1((RCT1)的特色)
+STR_5824    :{SMALLFONT}{BLACK}禁用雷暴下的閃電效果
 STR_5825    :{SMALLFONT}{BLACK}Keep the mouse cursor in the window
 STR_5826    :{SMALLFONT}{BLACK}Invert right mouse dragging of the viewport
 STR_5827    :{SMALLFONT}{BLACK}Sets the color scheme used for the GUI
 STR_5828    :{SMALLFONT}{BLACK}Changes what measurement format is used for distances, speed, etc.
-STR_5829    :{SMALLFONT}{BLACK}Changes what currency format is used. Purely visual, there is no exchange rate implementation
-STR_5830    :{SMALLFONT}{BLACK}Changes what language is used
-STR_5831    :{SMALLFONT}{BLACK}Changes what format the{NEWLINE}temperature is displayed in
+STR_5829    :{SMALLFONT}{BLACK}改變貨幣格式. 貨幣格式皆為裝飾用, 並不包含準確的匯率轉換
+STR_5830    :{SMALLFONT}{BLACK}改變顯示語言
+STR_5831    :{SMALLFONT}{BLACK}改變溫度顯示格式
 STR_5832    :{SMALLFONT}{BLACK}Show height as generic units instead of measurement format set under "Distance and Speed"
 STR_5833    :{SMALLFONT}{BLACK}Changes what date format is used
 STR_5834    :{SMALLFONT}{BLACK}Select which audio device OpenRCT2 will use
@@ -4150,7 +4150,7 @@ STR_5839    :{SMALLFONT}{BLACK}Show a separate button for the research and devel
 STR_5840    :{SMALLFONT}{BLACK}Show a separate button for the cheats window in the toolbar
 STR_5841    :{SMALLFONT}{BLACK}Show a separate button for the recent news window in the toolbar
 STR_5842    :{SMALLFONT}{BLACK}Sort scenarios into tabs by their difficulty (RCT2 behaviour) or their source game (RCT1 behaviour)
-STR_5843    :{SMALLFONT}{BLACK}Enable scenario unlocking (RCT1 behaviour)
+STR_5843    :{SMALLFONT}{BLACK}啟用劇情解鎖模式 (為夢幻遊樂園1((RCT1)的特色)
 STR_5844    :{SMALLFONT}{BLACK}Stay connected to a multiplayer server{NEWLINE}even if a desync or error occurs
 STR_5845    :{SMALLFONT}{BLACK}Adds a button for{NEWLINE}debugging tools to the toolbar.{NEWLINE}Enables keyboard shortcut for developer console
 STR_5846    :{SMALLFONT}{BLACK}Set often OpenRCT2 automatically saves
@@ -4163,7 +4163,7 @@ STR_5852    :{SMALLFONT}{BLACK}Set the name of the TwitchTV channel that will be
 STR_5853    :{SMALLFONT}{BLACK}啟用/禁用音效
 STR_5854    :{SMALLFONT}{BLACK}啟用/禁用音樂
 STR_5855    :{SMALLFONT}{BLACK}設置全螢幕, 視窗化,{NEWLINE}或無邊框式的全螢幕顯示模式
-STR_5856    :{SMALLFONT}{BLACK}Set game resolution when in fullscreen mode
+STR_5856    :{SMALLFONT}{BLACK}設置全屏幕模式下的解析度
 STR_5857    :{SMALLFONT}{BLACK}遊戲選項
 STR_5858    :{SMALLFONT}{BLACK}使用顯示卡取代中央處理器渲染. 改善與螢幕擷取軟件的兼容性. 可能會輕微影響效能.
 STR_5859    :{SMALLFONT}{BLACK}Enables frame tweening for visually{NEWLINE}smoother gameplay. When disabled,{NEWLINE}the game will run at 40 FPS.
@@ -4282,6 +4282,333 @@ STR_DTLS    :Thunder Rock豎立一個在沙漠中部, 並因此吸引遊客 - �
 STR_SCNR    :Mega Park
 STR_PARK    :Mega Park
 STR_DTLS    :盡情玩吧!
+
+## Added Attractions
+<Whispering Cliffs>
+STR_SCNR    :Whispering Cliffs
+STR_PARK    :Whispering Cliffs
+STR_DTLS    :Develop the seaside cliffs into a thriving amusement park
+
+<Three Monkeys Park>
+STR_SCNR    :Three Monkeys Park
+STR_PARK    :Three Monkeys Park
+STR_DTLS    :Central to this large developing park is a giant triple-track racing/duelling steel coaster
+
+<Canary Mines>
+STR_SCNR    :Canary Mines
+STR_PARK    :Canary Mines
+STR_DTLS    :This abandoned mine already has the makings of a tourist attraction with its minature railway and a pair of vertical drop roller coasters
+
+<Barony Bridge>
+STR_SCNR    :Barony Bridge
+STR_PARK    :Barony Bridge
+STR_DTLS    :An old redundant bridge is yours to develop into an amusement park
+
+<Funtopia>
+STR_SCNR    :Funtopia
+STR_PARK    :Funtopia
+STR_DTLS    :Covering land both sides of a highway, this park has several rides already operating
+
+<Haunted Harbor>
+STR_SCNR    :Haunted Harbor
+STR_PARK    :Haunted Harbor
+STR_DTLS    :The local authority has agreed to sell nearby land cheaply to this small seaside park, on the condition that certain rides are preserved
+
+<Fun Fortress>
+STR_SCNR    :Fun Fortress
+STR_PARK    :Fun Fortress
+STR_DTLS    :This castle is all yours to turn into a theme park
+
+<Future World>
+STR_SCNR    :Future World
+STR_PARK    :Future World
+STR_DTLS    :This futuristic park has plenty of space for new rides on its alien landscape
+
+<Gentle Glen>
+STR_SCNR    :Gentle Glen
+STR_PARK    :Gentle Glen
+STR_DTLS    :The local population prefer gentle and relaxing rides, so it is your job to expand this park to suit their tastes
+
+<Jolly Jungle>
+STR_SCNR    :Jolly Jungle
+STR_PARK    :Jolly Jungle
+STR_DTLS    :Deep in the jungle lies a large area of land ready to be turned into a theme park
+
+<Hydro Hills>
+STR_SCNR    :Hydro Hills
+STR_PARK    :Hydro Hills
+STR_DTLS    :A series of stepped lakes form the basis for this new park
+
+<Sprightly Park>
+STR_SCNR    :Sprightly Park
+STR_PARK    :Sprightly Park
+STR_DTLS    :This elderly park has many historical rides but is badly in debt
+
+<Magic Quarters>
+STR_SCNR    :Magic Quarters
+STR_PARK    :Magic Quarters
+STR_DTLS    :A large area of land has been cleared and partially themed ready for you to develop into a landscaped theme park
+
+<Fruit Farm>
+STR_SCNR    :Fruit Farm
+STR_PARK    :Fruit Farm
+STR_DTLS    :A thriving fruit farm has built a railroad to boost its income, your job is to develop it into a full-blown amusement park
+
+<Butterfly Dam>
+STR_SCNR    :Butterfly Dam
+STR_PARK    :Butterfly Dam
+STR_DTLS    :The area around a dam is available for you to develop into an amusement park
+
+<Coaster Canyon>
+STR_SCNR    :Coaster Canyon
+STR_PARK    :Coaster Canyon
+STR_DTLS    :A vast canyon is yours to turn into a theme park
+
+<Thunderstorm Park>
+STR_SCNR    :Thunderstorm Park
+STR_PARK    :Thunderstorm Park
+STR_DTLS    :The weather is so wet here that a giant pyramid has been built to allow some rides to be built under cover
+
+<Harmonic Hills>
+STR_SCNR    :Harmonic Hills
+STR_PARK    :Harmonic Hills
+STR_DTLS    :The local authority won't allow you to build above tree height in this park
+
+<Roman Village>
+STR_SCNR    :Roman Village
+STR_PARK    :Roman Village
+STR_DTLS    :Develop this Roman-themed park by adding rides and roller coasters
+
+<Swamp Cove>
+STR_SCNR    :Swamp Cove
+STR_PARK    :Swamp Cove
+STR_DTLS    :Built partly on a series of small islands, this park already has a pair of large roller coasters as its centerpiece
+
+<Adrenaline Heights>
+STR_SCNR    :Adrenaline Heights
+STR_PARK    :Adrenaline Heights
+STR_DTLS    :Build a park to appeal to the high-intensity thrill-seeking local people
+
+<Utopia Park>
+STR_SCNR    :Utopia Park
+STR_PARK    :Utopia Park
+STR_DTLS    :An oasis in the middle of the desert provides an unusual opportunity to build an amusement park
+
+<Rotting Heights>
+STR_SCNR    :Rotting Heights
+STR_PARK    :Rotting Heights
+STR_DTLS    :Overgrown and dilapidated, can you resurrect this once-great amusement park?
+
+<Fiasco Forest>
+STR_SCNR    :Fiasco Forest
+STR_PARK    :Fiasco Forest
+STR_DTLS    :Full of badly designed and dangerous rides, you have a very limited budget and time to fix the problems and turn the park around
+
+<Pickle Park>
+STR_SCNR    :Pickle Park
+STR_PARK    :Pickle Park
+STR_DTLS    :The local authority will not allow any kind of advertising or promotion, so this park must succeed by reputation only
+
+<Giggle Downs>
+STR_SCNR    :Giggle Downs
+STR_PARK    :Giggle Downs
+STR_DTLS    :A four lane steeplechase ride is the centerpiece of this expanding park
+
+<Mineral Park>
+STR_SCNR    :Mineral Park
+STR_PARK    :Mineral Park
+STR_DTLS    :Turn this abandoned stone quarry into a place to attract thrill-seeking tourists
+
+<Coaster Crazy>
+STR_SCNR    :Coaster Crazy
+STR_PARK    :Coaster Crazy
+STR_DTLS    :You have limited funds but unlimited time to turn this mountainside area into a vast roller coaster park
+
+<Urban Park>
+STR_SCNR    :Urban Park
+STR_PARK    :Urban Park
+STR_DTLS    :A tiny park has done a deal with the nearby town to allow expansion through the town itself
+
+<Geoffrey Gardens>
+STR_SCNR    :Geoffrey Gardens
+STR_PARK    :Geoffrey Gardens
+STR_DTLS    :A large garden park needs turning into a thriving theme park
+
+
+## Loopy Landscapes
+<Iceberg Islands>
+STR_SCNR    :Iceberg Islands
+STR_PARK    :Iceberg Islands
+STR_DTLS    :A collection of icebergs make a cold setting for this ambitious theme park
+
+<Volcania>
+STR_SCNR    :Volcania
+STR_PARK    :Volcania
+STR_DTLS    :A dormant volcano is the setting of this coaster-building challenge
+
+<Arid Heights>
+STR_SCNR    :Arid Heights
+STR_PARK    :Arid Heights
+STR_DTLS    :Free of any financial limits, your challenge is to develop this desert park while keeping the guests happy
+
+<Razor Rocks>
+STR_SCNR    :Razor Rocks
+STR_PARK    :Razor Rocks
+STR_DTLS    :Your task is to build a massive coaster-filled park in amongst Razor Rocks
+
+<Crater Lake>
+STR_SCNR    :Crater Lake
+STR_PARK    :Crater Lake
+STR_DTLS    :A large lake in an ancient crater is the setting for this park
+
+<Vertigo Views>
+STR_SCNR    :Vertigo Views
+STR_PARK    :Vertigo Views
+STR_DTLS    :This large park already has an excellent hyper-coaster, but your task is to massively increase its profit
+
+<Paradise Pier 2>
+STR_SCNR    :Paradise Pier 2
+STR_PARK    :Paradise Pier 2
+STR_DTLS    :Paradise Pier has expanded its network of walkways over the sea, and your task is to expand the park to use the extra space
+
+<Dragon's Cove>
+STR_SCNR    :Dragon's Cove
+STR_PARK    :Dragon's Cove
+STR_DTLS    :This sea-side cove is the setting for this coaster-building challenge
+
+<Good Knight Park>
+STR_SCNR    :Good Knight Park
+STR_PARK    :Good Knight Park
+STR_DTLS    :A castle with a pair of roller coasters needs developing into a larger theme park
+
+<Wacky Warren>
+STR_SCNR    :Wacky Warren
+STR_PARK    :Wacky Warren
+STR_DTLS    :A park which has much of its footpaths and coasters underground
+
+<Grand Glacier>
+STR_SCNR    :Grand Glacier
+STR_PARK    :Grand Glacier
+STR_DTLS    :A glacier-filled valley is yours to develop into a theme park
+
+<Crazy Craters>
+STR_SCNR    :Crazy Craters
+STR_PARK    :Crazy Craters
+STR_DTLS    :In a far-off world where money is not needed, you must build an entertainment centre to keep the people happy
+
+<Dusty Desert>
+STR_SCNR    :Dusty Desert
+STR_PARK    :Dusty Desert
+STR_DTLS    :Five coasters require completion in this desert park
+
+<Woodworm Park>
+STR_SCNR    :Woodworm Park
+STR_PARK    :Woodworm Park
+STR_DTLS    :This historical park is only allowed to build older-styled rides
+
+<Icarus Park>
+STR_SCNR    :Icarus Park
+STR_PARK    :Icarus Park
+STR_DTLS    :Develop this alien park to maximize its profit
+
+<Sunny Swamps>
+STR_SCNR    :Sunny Swamps
+STR_PARK    :Sunny Swamps
+STR_DTLS    :This well-themed amusement park already has several rides, but has plenty of space for expansion
+
+<Frightmare Hills>
+STR_SCNR    :Frightmare Hills
+STR_PARK    :Frightmare Hills
+STR_DTLS    :A scary park with a giant centrepiece coaster
+
+<Thunder Rocks>
+STR_SCNR    :Thunder Rocks
+STR_PARK    :Thunder Rocks
+STR_DTLS    :Two large hunks of rock stick out of the sand, upon which the beginnings of a theme park are constructed
+
+<Octagon Park>
+STR_SCNR    :Octagon Park
+STR_PARK    :Octagon Park
+STR_DTLS    :In this large park you must design and build ten large coasters
+
+<Pleasure Island>
+STR_SCNR    :Pleasure Island
+STR_PARK    :Pleasure Island
+STR_DTLS    :A long thin island makes a challenging setting to build a selection of coasters
+
+<Icicle Worlds>
+STR_SCNR    :Icicle Worlds
+STR_PARK    :Icicle Worlds
+STR_DTLS    :An icy landscape needs turning into a thriving theme park
+
+<Southern Sands>
+STR_SCNR    :Southern Sands
+STR_PARK    :Southern Sands
+STR_DTLS    :A desert park with some cleverly designed coasters is yours to expand
+
+<Tiny Towers>
+STR_SCNR    :Tiny Towers
+STR_PARK    :Tiny Towers
+STR_DTLS    :In this tiny park you must finish building the five existing coasters
+
+<Nevermore Park>
+STR_SCNR    :Nevermore Park
+STR_PARK    :Nevermore Park
+STR_DTLS    :A large park with a novel transporation system around its edge
+
+<Pacifica>
+STR_SCNR    :Pacifica
+STR_PARK    :Pacifica
+STR_DTLS    :This large island is all yours to develop as an amusement park
+
+<Urban Jungle>
+STR_SCNR    :Urban Jungle
+STR_PARK    :Urban Jungle
+STR_DTLS    :A giant abandoned skyscraper is a unique opportunity for a theme park developer
+
+<Terror Town>
+STR_SCNR    :Terror Town
+STR_PARK    :Terror Town
+STR_DTLS    :此市區現可由你任意發展成一個樂園
+
+<Megaworld Park>
+STR_SCNR    :Megaworld Park
+STR_PARK    :Megaworld Park
+STR_DTLS    :一個已經有很多遊樂設施, 但需要改善的大型樂園
+
+<Venus Ponds>
+STR_SCNR    :Venus Ponds
+STR_PARK    :Venus Ponds
+STR_DTLS    :在一個遙遠的行星上的此地需要發展成一個主題樂園
+
+<Micro Park>
+STR_SCNR    :Micro Park
+STR_PARK    :Micro Park
+STR_DTLS    :嘗試建立一個世界上最小的利潤性樂園
+
+## Real Parks from RCT1
+# None of them had details
+<Alton Towers>
+STR_SCNR    :奧爾頓塔
+STR_PARK    :奧爾頓塔
+STR_DTLS    :
+
+<Heide-Park>
+STR_SCNR    :Heide-Park
+STR_PARK    :Heide-Park
+STR_DTLS    :
+
+<Blackpool Pleasure Beach>
+STR_SCNR    :Blackpool Pleasure Beach
+STR_PARK    :Blackpool Pleasure Beach
+STR_DTLS    :
+
+## Misc parks from RCT1
+# Had no details
+<Fort Anachronism>
+STR_SCNR    :Fort Anachronism
+STR_PARK    :Fort Anachronism
+STR_DTLS    :
 
 #####################
 # Rides/attractions # 
