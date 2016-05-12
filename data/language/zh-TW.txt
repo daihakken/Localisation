@@ -3920,7 +3920,7 @@ STR_5577    :南韓園 (₩)
 STR_5578    :俄羅斯盧布 (R)
 STR_5579    :顥示縮放因子:
 STR_5580    :捷克克朗 (Kc)
-STR_5581    :顥示幀數
+STR_5581    :顥示每秒顯示張數
 STR_5582    :限制滑鼠游標於視窗中移動
 STR_5583    :{COMMA1DP16}ms{POWERNEGATIVEONE}
 STR_5584    :SI
@@ -4122,7 +4122,7 @@ STR_5812    :顯示多人連線模式的視窗
 STR_5813    :{OPENQUOTES}{STRING}{ENDQUOTES}
 STR_5814    :{WINDOW_COLOUR_1}{OPENQUOTES}{STRING}{ENDQUOTES}
 #tooltips
-STR_5815    :{SMALLFONT}{BLACK}在遊戲中顯示FPS數目
+STR_5815    :{SMALLFONT}{BLACK}在遊戲中顯示每秒顯示張數數目
 STR_5816    :{SMALLFONT}{BLACK}設置縮放遊戲的比例.{NEWLINE}於高解析度時遊玩非常有用
 STR_5817    :{SMALLFONT}{BLACK}[需先啟用硬體渲染]{NEWLINE}設定介面縮放種類
 STR_5818    :{SMALLFONT}{BLACK}[需先啟用硬體渲染]{NEWLINE}當縮放遊戲的比例設置成為整數(例如1,2,3等){NEWLINE}將會使用最近鄰居法去縮放介面
@@ -4134,15 +4134,15 @@ STR_5823    :{SMALLFONT}{BLACK}在橫額中顥示大階英文 (為夢幻遊樂�
 STR_5824    :{SMALLFONT}{BLACK}禁用雷暴下的閃電效果
 STR_5825    :{SMALLFONT}{BLACK}Keep the mouse cursor in the window
 STR_5826    :{SMALLFONT}{BLACK}Invert right mouse dragging of the viewport
-STR_5827    :{SMALLFONT}{BLACK}Sets the color scheme used for the GUI
-STR_5828    :{SMALLFONT}{BLACK}Changes what measurement format is used for distances, speed, etc.
+STR_5827    :{SMALLFONT}{BLACK}設置界面使用的配色主題
+STR_5828    :{SMALLFONT}{BLACK}改變距離及速度的量度單位
 STR_5829    :{SMALLFONT}{BLACK}改變貨幣格式. 貨幣格式皆為裝飾用, 並不包含準確的匯率轉換
 STR_5830    :{SMALLFONT}{BLACK}改變顯示語言
 STR_5831    :{SMALLFONT}{BLACK}改變溫度顯示格式
-STR_5832    :{SMALLFONT}{BLACK}Show height as generic units instead of measurement format set under "Distance and Speed"
-STR_5833    :{SMALLFONT}{BLACK}Changes what date format is used
-STR_5834    :{SMALLFONT}{BLACK}Select which audio device OpenRCT2 will use
-STR_5835    :{SMALLFONT}{BLACK}Mute the game if the window loses focus
+STR_5832    :{SMALLFONT}{BLACK}將高度的單位顯示為一個通用單位, 而不使用在"距離及速度"中設置的量度單位
+STR_5833    :{SMALLFONT}{BLACK}改變日期格式
+STR_5834    :{SMALLFONT}{BLACK}選擇OpenRCT2會使用的音效設備
+STR_5835    :{SMALLFONT}{BLACK}當焦點失去時靜音
 STR_5836    :{SMALLFONT}{BLACK}Select music to use on the main menu.{NEWLINE}Selecting RCT1 theme requires that you copy 'data/css17.dat' from your RCT1 game folder to 'data/css50.dat' in your RCT2 folder.
 STR_5837    :{SMALLFONT}{BLACK}Create and manage custom UI themes
 STR_5838    :{SMALLFONT}{BLACK}Show a separate button for the finance window in the toolbar
@@ -4151,22 +4151,22 @@ STR_5840    :{SMALLFONT}{BLACK}Show a separate button for the cheats window in t
 STR_5841    :{SMALLFONT}{BLACK}Show a separate button for the recent news window in the toolbar
 STR_5842    :{SMALLFONT}{BLACK}Sort scenarios into tabs by their difficulty (RCT2 behaviour) or their source game (RCT1 behaviour)
 STR_5843    :{SMALLFONT}{BLACK}啟用劇情解鎖模式 (為夢幻遊樂園1((RCT1)的特色)
-STR_5844    :{SMALLFONT}{BLACK}Stay connected to a multiplayer server{NEWLINE}even if a desync or error occurs
+STR_5844    :{SMALLFONT}{BLACK}即使有不同步或錯誤發生,{NEWLINE}保持連線到一個多人連線的伺服器
 STR_5845    :{SMALLFONT}{BLACK}Adds a button for{NEWLINE}debugging tools to the toolbar.{NEWLINE}Enables keyboard shortcut for developer console
-STR_5846    :{SMALLFONT}{BLACK}Set often OpenRCT2 automatically saves
+STR_5846    :{SMALLFONT}{BLACK}設置OpenRCT2自動儲存的時隔
 STR_5847    :{SMALLFONT}{BLACK}Select park sequence used on the title screen. Title sequences from RCT1/2 require imported scenarios to function
 STR_5848    :{SMALLFONT}{BLACK}Create and manage custom title sequences
 STR_5849    :{SMALLFONT}{BLACK}Automatically place{NEWLINE}newly hired staff members
-STR_5850    :{SMALLFONT}{BLACK}Newly hired handymen mow{NEWLINE}grass by default (RCT1 behaviour)
-STR_5851    :{SMALLFONT}{BLACK}Sets the default inspection interval{NEWLINE}on newly built rides
-STR_5852    :{SMALLFONT}{BLACK}Set the name of the TwitchTV channel that will be used for Twitch integration
+STR_5850    :{SMALLFONT}{BLACK}Newly hired handymen mow{NEWLINE}grass by default (為夢幻遊樂園1((RCT1)的特色)
+STR_5851    :{SMALLFONT}{BLACK}設置新建設的遊樂設施{NEWLINE}的預設檢查時隔
+STR_5852    :{SMALLFONT}{BLACK}設置將會於Twitch整合功能的Twitch.tv頻道名稱
 STR_5853    :{SMALLFONT}{BLACK}啟用/禁用音效
 STR_5854    :{SMALLFONT}{BLACK}啟用/禁用音樂
 STR_5855    :{SMALLFONT}{BLACK}設置全螢幕, 視窗化,{NEWLINE}或無邊框式的全螢幕顯示模式
 STR_5856    :{SMALLFONT}{BLACK}設置全屏幕模式下的解析度
 STR_5857    :{SMALLFONT}{BLACK}遊戲選項
 STR_5858    :{SMALLFONT}{BLACK}使用顯示卡取代中央處理器渲染. 改善與螢幕擷取軟件的兼容性. 可能會輕微影響效能.
-STR_5859    :{SMALLFONT}{BLACK}Enables frame tweening for visually{NEWLINE}smoother gameplay. When disabled,{NEWLINE}the game will run at 40 FPS.
+STR_5859    :{SMALLFONT}{BLACK}啟用影格漸變來令遊戲畫面變得更順滑. {NEWLINE}當禁用時, 遊戲會以40 FPS運行.
 
 #############
 # Scenarios #
