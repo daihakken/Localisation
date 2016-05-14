@@ -2805,7 +2805,7 @@ STR_2794    :{WINDOW_COLOUR_2}完成目標者: {BLACK}{STRINGID}{NEWLINE}{WINDOW
 STR_2795    :排序
 STR_2796    :{SMALLFONT}{BLACK}將遊樂設施以不同類別列出
 STR_2797    :當滑鼠遊標放置於邊緣時, 捲動檢視範圍
-STR_2798    :{SMALLFONT}{BLACK}選擇到底當滑鼠游標放置於邊緣時, 捲動檢視範圍
+STR_2798    :{SMALLFONT}{BLACK}當滑鼠游標放置於邊緣時, 捲動檢視範圍
 STR_2799    :{SMALLFONT}{BLACK}檢視或改變控制按鍵佈局
 STR_2800    :{WINDOW_COLOUR_2}總進園人數: {BLACK}{COMMA32}
 STR_2801    :{WINDOW_COLOUR_2}樂園門票所得收入: {BLACK}{CURRENCY2DP}
@@ -3504,15 +3504,15 @@ STR_5162    :日/月/年
 STR_5163    :月/日/年
 STR_5164    :Twitch頻道名稱
 STR_5165    :以追隨者的用戶名命名遊客
-STR_5166    :{SMALLFONT}{BLACK}會以Twitch頻道的追隨者命名遊客
+STR_5166    :{SMALLFONT}{BLACK}以Twitch頻道的追隨者命名遊客
 STR_5167    :追蹤'追隨者'遊客
-STR_5168    :{SMALLFONT}{BLACK}會將追隨者用戶名的遊客開啟追蹤資訊
+STR_5168    :{SMALLFONT}{BLACK}開啟追隨者用戶名遊客的追蹤資訊
 STR_5169    :以聊天室用戶的名字命名遊客
-STR_5170    :{SMALLFONT}{BLACK}會以Twitch頻道的聊天室用戶的名字命名遊客
+STR_5170    :{SMALLFONT}{BLACK}以Twitch頻道的聊天室用戶的名字命名遊客
 STR_5171    :追蹤'聊天室用戶'遊客
-STR_5172    :{SMALLFONT}{BLACK}會將聊天室用戶名的遊客開啟追蹤資訊
+STR_5172    :{SMALLFONT}{BLACK}開啟聊天室用戶名遊客的追蹤資訊
 STR_5173    :將Twitch聊天室的內容推送為新聞
-STR_5174    :{SMALLFONT}{BLACK}會將Twitch聊天室所有標'!news'的內容以最近消息顯示於遊戲內
+STR_5174    :{SMALLFONT}{BLACK}將Twitch聊天室所有標記為'!news'的內容以最近消息顯示於遊戲內
 STR_5175    :請輸入你的Twitch頻道名稱
 STR_5176    :准許Twitch頻道融合於遊戲之中
 STR_5177    :顯示模式:
@@ -3926,7 +3926,7 @@ STR_5583    :{COMMA1DP16}ms{POWERNEGATIVEONE}
 STR_5584    :SI
 STR_5585    :{SMALLFONT}{BLACK}移除遊樂設施的運行限制, 例如容許鏈條上拉速度高達{VELOCITY}
 STR_5586    :自動開啟商店及攤販
-STR_5587    :{SMALLFONT}{BLACK}當此設定啟用後, 商店及攤販將會於建造後自動開啟
+STR_5587    :{SMALLFONT}{BLACK}商店及攤販將會於建造後自動開啟
 STR_5588    :{SMALLFONT}{BLACK}與其他玩家一起遊玩
 STR_5589    :消息設定
 STR_5590    :樂園獎項
@@ -4132,8 +4132,8 @@ STR_5821    :{SMALLFONT}{BLACK}改變建造遊樂設施, 道路, 商店, 景物�
 STR_5822    :{SMALLFONT}{BLACK}循環日與夜.{NEWLINE}一個完整的循環需時一個遊戲月
 STR_5823    :{SMALLFONT}{BLACK}在橫額中顥示大階英文 (為夢幻遊樂園1((RCT1)的特色)
 STR_5824    :{SMALLFONT}{BLACK}禁用雷暴下的閃電效果
-STR_5825    :{SMALLFONT}{BLACK}Keep the mouse cursor in the window
-STR_5826    :{SMALLFONT}{BLACK}Invert right mouse dragging of the viewport
+STR_5825    :{SMALLFONT}{BLACK}限制滑鼠游標於視窗中
+STR_5826    :{SMALLFONT}{BLACK}於額外檢視視窗中使用滑鼠左鍵拖拉
 STR_5827    :{SMALLFONT}{BLACK}設置界面使用的配色主題
 STR_5828    :{SMALLFONT}{BLACK}改變距離及速度的量度單位
 STR_5829    :{SMALLFONT}{BLACK}改變貨幣格式. 貨幣格式皆為裝飾用, 並不包含準確的匯率轉換
@@ -4143,21 +4143,21 @@ STR_5832    :{SMALLFONT}{BLACK}將高度的單位顯示為一個通用單位, �
 STR_5833    :{SMALLFONT}{BLACK}改變日期格式
 STR_5834    :{SMALLFONT}{BLACK}選擇OpenRCT2會使用的音效設備
 STR_5835    :{SMALLFONT}{BLACK}當焦點失去時靜音
-STR_5836    :{SMALLFONT}{BLACK}Select music to use on the main menu.{NEWLINE}Selecting RCT1 theme requires that you copy 'data/css17.dat' from your RCT1 game folder to 'data/css50.dat' in your RCT2 folder.
-STR_5837    :{SMALLFONT}{BLACK}Create and manage custom UI themes
-STR_5838    :{SMALLFONT}{BLACK}Show a separate button for the finance window in the toolbar
-STR_5839    :{SMALLFONT}{BLACK}Show a separate button for the research and development window in the toolbar
-STR_5840    :{SMALLFONT}{BLACK}Show a separate button for the cheats window in the toolbar
-STR_5841    :{SMALLFONT}{BLACK}Show a separate button for the recent news window in the toolbar
-STR_5842    :{SMALLFONT}{BLACK}Sort scenarios into tabs by their difficulty (RCT2 behaviour) or their source game (RCT1 behaviour)
+STR_5836    :{SMALLFONT}{BLACK}選擇主選單音樂.選擇夢幻遊樂園(RCT1)的主選單音樂{NEWLINE}需要複製夢幻遊樂園(RCT1)文件夾中的'data\css17.dat'到模擬樂園(RCT2)的文件夾, 並重新命名為'data\css50.dat'.
+STR_5837    :{SMALLFONT}{BLACK}建立或管理自訂的介面主題
+STR_5838    :{SMALLFONT}{BLACK}在工具列上顯示單獨的財政按鈕
+STR_5839    :{SMALLFONT}{BLACK}在工具列上顯示單獨的研發按鈕
+STR_5840    :{SMALLFONT}{BLACK}在工具列上顯示單獨的密技按鈕
+STR_5841    :{SMALLFONT}{BLACK}在工具列上顯示單獨的最近消息按鈕 toolbar
+STR_5842    :{SMALLFONT}{BLACK}以難易度(為模擬樂園(RCT2)的特色){NEWLINE}或出處的遊戲劇情(為夢幻遊樂園1((RCT1)的特色)分類劇情
 STR_5843    :{SMALLFONT}{BLACK}啟用劇情解鎖模式 (為夢幻遊樂園1((RCT1)的特色)
 STR_5844    :{SMALLFONT}{BLACK}即使有不同步或錯誤發生,{NEWLINE}保持連線到一個多人連線的伺服器
-STR_5845    :{SMALLFONT}{BLACK}Adds a button for{NEWLINE}debugging tools to the toolbar.{NEWLINE}Enables keyboard shortcut for developer console
+STR_5845    :{SMALLFONT}{BLACK}在工具列上新增一個有關除錯工具的按鈕,{NEWLINE}並會啟用開發者命令行的鍵盤快捷鍵
 STR_5846    :{SMALLFONT}{BLACK}設置OpenRCT2自動儲存的時隔
-STR_5847    :{SMALLFONT}{BLACK}Select park sequence used on the title screen. Title sequences from RCT1/2 require imported scenarios to function
-STR_5848    :{SMALLFONT}{BLACK}Create and manage custom title sequences
-STR_5849    :{SMALLFONT}{BLACK}Automatically place{NEWLINE}newly hired staff members
-STR_5850    :{SMALLFONT}{BLACK}Newly hired handymen mow{NEWLINE}grass by default (為夢幻遊樂園1((RCT1)的特色)
+STR_5847    :{SMALLFONT}{BLACK}選擇主選單動畫. 夢幻遊樂園1((RCT1)或模擬樂園(RCT2)需要導入相關的劇情才能使用
+STR_5848    :{SMALLFONT}{BLACK}建立及管理自訂的主選單動畫
+STR_5849    :{SMALLFONT}{BLACK}自動放置新僱用的員工
+STR_5850    :{SMALLFONT}{BLACK}預設新僱用的清潔工人會修剪草皮{NEWLINE}(為夢幻遊樂園1((RCT1)的特色)
 STR_5851    :{SMALLFONT}{BLACK}設置新建設的遊樂設施{NEWLINE}的預設檢查時隔
 STR_5852    :{SMALLFONT}{BLACK}設置將會於Twitch整合功能的Twitch.tv頻道名稱
 STR_5853    :{SMALLFONT}{BLACK}啟用/禁用音效
@@ -4539,32 +4539,32 @@ STR_DTLS    :A long thin island makes a challenging setting to build a selection
 <Icicle Worlds>
 STR_SCNR    :Icicle Worlds
 STR_PARK    :Icicle Worlds
-STR_DTLS    :An icy landscape needs turning into a thriving theme park
+STR_DTLS    :一個冰天雪地的地方需要發展成一個主題樂園
 
 <Southern Sands>
 STR_SCNR    :Southern Sands
 STR_PARK    :Southern Sands
-STR_DTLS    :A desert park with some cleverly designed coasters is yours to expand
+STR_DTLS    :一個已經有些設計妥善的雲霄飛車現可由你任意擴張
 
 <Tiny Towers>
 STR_SCNR    :Tiny Towers
 STR_PARK    :Tiny Towers
-STR_DTLS    :In this tiny park you must finish building the five existing coasters
+STR_DTLS    :你需要在此細小的樂園中完成建設五座雲霄飛車
 
 <Nevermore Park>
 STR_SCNR    :Nevermore Park
 STR_PARK    :Nevermore Park
-STR_DTLS    :A large park with a novel transporation system around its edge
+STR_DTLS    :一個已經四周都擁有童話般的運輸系統的大型樂園
 
 <Pacifica>
 STR_SCNR    :Pacifica
 STR_PARK    :Pacifica
-STR_DTLS    :This large island is all yours to develop as an amusement park
+STR_DTLS    :此大型島嶼現可由你任意發展成一個樂園
 
 <Urban Jungle>
 STR_SCNR    :Urban Jungle
 STR_PARK    :Urban Jungle
-STR_DTLS    :A giant abandoned skyscraper is a unique opportunity for a theme park developer
+STR_DTLS    :一座被棄置的摩天大樓是發展主題樂園的難得機會
 
 <Terror Town>
 STR_SCNR    :Terror Town
